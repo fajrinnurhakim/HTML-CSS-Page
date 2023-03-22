@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css2?family=Ropa+Sans:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*======================SCRIPT CSS WEBSITE==================================*/
+/*- BODY, CONTAINER, HEADER, NAVIGASI -*/
+body{
+	background-image: url(../image/bg_body.jpg);
+	background-size: 100% 100%;
+	background-attachment: fixed;
+}
+
+.container{
+	width: 800px;
+	margin: auto;
+	background: rgba(0, 0, 0, 0.6);
+}
+
+.header{
+	padding: 20px;
+	padding-bottom: 30px;
+	background: rgba(0, 0, 0, 0.4);
+}
+
+.header .judul{
+	font-family: 'Poppins', sans-serif;
+	font-size: 50px;
+	margin-right: 20px;
+	text-align: center;
+	font-weight: 700;
+	color: #ff6f00;
+}
+
+.menu{
+	overflow: hidden;
+	background: rgba(0, 0, 0, 0.4);
+	border-bottom: 5px solid #ff6f00;
+
+}
+
+.menu a{
+	float: left;
+	text-decoration: none;
+	color: #6db332;
+	margin-left: 5px;
+	padding: 10px 10px;
+	font-family: 'Poppins', sans-serif;
+	font-size: 15px;
+	font-weight: 500;
+	transition: all 1s ease;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.menu a:hover {
+	background: #6db332;
+	color: #1c3436;
+}
+
+.menu a.dipakai{
+	background: #6db332;
+	color: #1c3436;
+}
+
+.menu #dipakai{
+	background: #6db332;
+	color: #1c3436;
+}
+
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0);
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  color: #1c3436;
+  border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	margin-left: 5px;
+}
+
+
+.dropdown .dropbtn {
+
+  border: none;
+  outline: none;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  color: #6db332;
+  padding: 6px 16px;
+  background-color: inherit;
+  font-family: inherit; 
+  margin-left: 0; 
+  transition: all 1s ease;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #6db332;
+  color: #064f51;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #1c3436;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: #6db332;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #6db332;
+  border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+/*- BODY, CONTAINER, HEADER, NAVIGASI -*/
+/*- HOME -*/
+.konten_home .hero_home{
+	width: 450px;
+	height: 250px;
+	margin: 10px 150px;
+}
+
+.konten_home .judul_artikel{
+	margin-left: 12px;
+	font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+	color: #ff6f00;
+}
+
+.konten_home .ket{
+	margin-left: 12px;
+	margin-top: 5px;
+	font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+	color: #6db332;
+}
+
+.konten_home .ket a{
+	text-decoration: none;
+	color: #ff6f00;
+	font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.konten_home .isi_artikel1{
+	text-align: justify;
+	margin: 15px 12px;
+	font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 200;
+	color: white;
+}
+/*- HOME -*/
+/*- DAFTAR BUKU -*/
+.konten_daftar_buku{
+	margin-top: 10px;
+}
+
+.konten_daftar_buku .judul_buku{
+	margin-left: 20px;
+	font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+	color: #ff6f00;
+}
+.konten_daftar_buku .penulis{
+	margin-left: 20px;
+	margin-top: 5px;
+	font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+	color: #6db332;
+}
+.konten_daftar_buku .penulis a{
+	text-decoration: none;
+	color: #ff6f00;
+	font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+.konten_daftar_buku .gambarbuku{
+	width: 200px;
+	height: 250px;
+	margin: 12px 300px;
+}
+.konten_daftar_buku .deskripsi{
+	text-align: justify;
+	margin: 15px 20px;
+	font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 200;
+	color: white;
+}
+/*- DAFTAR BUKU -*/
+/*- TENTANG KAMI -*/
+.konten_tentang_kami .judul_tentang_kami{
+	margin-top: 10px;
+	margin-left: 10px;
+	font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+	color: #ff6f00;
+}
+
+.konten_tentang_kami .isi_tentang_kami{
+	text-align: justify;
+	margin: 15px 12px;
+	font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 200;
+	color: white;
+}
+/*- TENTANG KAMI -*/
+/*- KONTAK -*/
+.konten_kontak .judul_kontak{
+	margin-left: 10px;
+	margin-top: 10px;
+	font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+	color: #ff6f00;
+}
+
+.konten_kontak .isi_kontak{
+	text-align: justify;
+	margin-top: 10px;
+	margin-left: 12px;
+	margin-right: 12px;
+	font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 200;
+	padding-bottom: 20px;
+	color: white;
+}
+
+.googlemap {
+	padding top: 20px;
+	padding-bottom: 20px;
+}
+
+.list_kontak .wa{
+	width: 50px;
+	height: 50px;
+	padding-left: 265px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+
+.list_kontak .fb{
+	width: 50px;
+	height: 50px;
+	padding-bottom: 7px;
+	padding-top: 7px;
+	padding-left: 18px;
+}
+
+.list_kontak .ig{
+	width: 50px;
+	height: 50px;
+	padding-bottom: 7px;
+	padding-top: 7px;
+	padding-left: 23px;
+}
+
+.list_kontak .gmail{
+	width: 50px;
+	height: 50px;
+	padding-bottom: 7px;
+	padding-top: 7px;
+	padding-left: 20px;
+}
+/*- KONTAK -*/
+/*- OTHERS(DAFTAR LAGU DAN VIDEO SOAL UTS) -*/
+.konten_others .judul_others{
+	margin-top: 10px;
+	margin-left: 10px;
+	font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+	color: #ff6f00;
+	padding-bottom: 10px;
+}
+
+.konten_others .isi_others{
+	text-align: justify;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 200;
+	color: white;
+	padding-bottom: 10px;
+}
+/*- OTHERS(DAFTAR LAGU DAN VIDEO SOAL UTS) -*/
+/*- FOOTER -*/
+.footer{
+	background: #ff6f00;
+	width: auto;
+	height: 30px;
+	padding-top: 10px;
+}
+
+.footer p{
+	color: white;
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+}
+/*- FOOTER -*/
+
